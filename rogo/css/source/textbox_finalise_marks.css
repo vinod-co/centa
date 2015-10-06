@@ -1,0 +1,42 @@
+body {
+  margin-bottom: 10px;
+}
+.l {
+  font-size: 110%;
+}
+.ans {
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #C0C0C0;
+}
+.primary {
+  text-align: right;
+  border-bottom: 1px solid #CBC7B8;
+  border-left: 1px solid #CBC7B8;
+  width:50px;
+}
+.secondary {
+  text-align: right;
+  border-bottom: 1px solid #CBC7B8;
+  border-left: 1px solid #CBC7B8;
+  border-right: 1px solid #CBC7B8;
+}
+.missing {
+  background-color:#EEEEEE;
+}
+.noans {
+  background-color: #FFDDDD;
+}
+.override {
+  text-align: right;
+  border-bottom: 1px solid #CBC7B8;
+}
+input[type='radio'] {
+  margin-left: 6px !important;
+}
+.unmarked {
+  background-color: #C00000;
+  color: white;
+  text-align: center;
+}

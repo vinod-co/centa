@@ -1,0 +1,27 @@
+Rogo cron jobs
+##############
+
+Scripts that are to be run via the crontab should be in this directory. 
+
+This directory and the files within it should be readable/executable by the user running the cronjob.
+
+
+1. Adding a script to the crontab
+#################################
+To add the script to your crontab use 'crontab -e'.
+
+For example, you can run the class totals check at 6 p.m every day with:
+0 18 * * * /var/www/html/cron/class_totals.sh
+
+
+2. Environment variables
+########################
+
+Scripts should use the following system environment variables:
+
+ROGO - location of rogo base directory.
+
+ROGOCRONLOGS - location to log output of script, this should be a writable location to the user running the cronjob.
+
+ROGOCRONLOCK - location of the directory where the script lock file is temporarily stored,
+               this should be a writable location to the user running the cronjob.

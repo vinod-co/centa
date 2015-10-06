@@ -1,0 +1,12 @@
+[Tue Oct 06 15:01:35.852286 2015] [ssl:warn] [pid 4456:tid 336] AH01909: www.rogo.dev:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 06 15:01:36.194305 2015] [ssl:warn] [pid 4456:tid 336] AH01909: www.rogo.dev:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 06 15:01:36.786339 2015] [ssl:warn] [pid 4780:tid 228] AH01909: www.rogo.dev:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 06 15:01:37.135359 2015] [ssl:warn] [pid 4780:tid 228] AH01909: www.rogo.dev:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 06 15:05:48.183718 2015] [ssl:warn] [pid 4824:tid 344] AH01909: www.rogo.dev:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 06 15:05:48.552739 2015] [ssl:warn] [pid 4824:tid 344] AH01909: www.rogo.dev:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 06 15:05:49.172775 2015] [ssl:warn] [pid 6940:tid 236] AH01909: www.rogo.dev:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 06 15:05:49.559797 2015] [ssl:warn] [pid 6940:tid 236] AH01909: www.rogo.dev:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 06 15:44:46.619957 2015] [ssl:warn] [pid 2556:tid 344] AH01909: www.rogo.dev:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 06 15:44:47.009958 2015] [ssl:warn] [pid 2556:tid 344] AH01909: www.rogo.dev:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 06 15:44:47.571559 2015] [ssl:warn] [pid 4040:tid 236] AH01909: www.rogo.dev:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 06 15:44:48.023960 2015] [ssl:warn] [pid 4040:tid 236] AH01909: www.rogo.dev:443:0 server certificate does NOT include an ID which matches the server name

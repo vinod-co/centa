@@ -1,0 +1,19 @@
+th.headerSortUp { 
+  border-bottom: 3px solid #FFBD69 !important;
+  font-weight: bold;
+  background-image: url('../artwork/asc.gif');
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+th.headerSortDown { 
+  border-bottom: 3px solid #FFBD69 !important;
+  font-weight: bold;
+  background-image: url('../artwork/desc.gif');
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+th.header { 
+  border-bottom: 3px solid white;
+  cursor: pointer;
+  padding-right: 15px;
+} 

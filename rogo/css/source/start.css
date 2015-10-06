@@ -1,0 +1,378 @@
+html {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  font-size: 90%;
+  height: 100%;
+}
+#maincontent.img {
+  vertical-align: text-top;
+}
+li {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 100%;
+}
+table {
+  table-layout: fixed;
+}
+p {
+  margin-top: 0;
+  padding-top: 0;
+}
+pre {
+  font-family: Arial,sans-serif;
+  font-size: 100%;
+}
+.paper {
+  margin-left: 5px;
+  font-size: 180%;
+  color: white;
+  font-weight: bold;
+}
+.screens {
+  margin-left: 5px;
+  color: white;
+  font-weight: bold;
+}
+.q_no {
+  width: 40px;
+  text-align: right;
+  vertical-align: top;
+}
+.theme {
+  font-size: 150%;
+  padding-left: 4px;
+  font-weight: bold;
+  color: #316AC5;
+}
+.note {
+  color: #C00000;
+}
+.mk {
+  color: #808080;
+  font-size: 80%;
+  padding-top: 4px;
+}
+.calc_fb {
+  color: #808080;
+  font-size: 80%;
+}
+.act {
+  color: black;
+  text-decoration: none;
+}
+.inact {
+  color: #A5A5A5;
+  text-decoration: line-through;
+}
+.scr_ans {
+  font-weight: bold;
+  padding: 1px;
+  width: 18px;
+  text-align: center;
+  background-color: #003366;
+  color: white;
+  font-size: 80%;
+  margin-right: 1px;
+  float: left;
+}
+.scr_un {
+  font-weight: bold;
+  padding: 1px;
+  width: 18px;
+  text-align: center;
+  background-color: #FFC0C0;
+  color: #800000;
+  font-size: 80%;
+  margin-right: 1px;
+  float: left;
+}
+.scr_cur {
+  font-weight: bold;
+  padding: 1px;
+  width: 18px;
+  text-align: center;
+  background-color: #C00000;
+  color: white;
+  font-size: 80%;
+  margin-right: 1px;
+  float: left;
+}
+.scr_arrow {
+  width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 8px solid #C00000;
+  float: left;
+}
+.scr_spacer {
+  width: 20px;
+  height: 1px;
+  margin-right: 1px;
+  float: left;
+}
+.unans {
+  background-color: #FFC0C0;
+}
+.matrix {
+  border: 1px solid #808080;
+  border-collapse: collapse;
+  margin-left: 35px;
+  margin-bottom: 15px;
+}
+.matrix td {
+  border: 1px solid #808080;
+}
+.extmatch li {
+  padding-bottom: 14px;
+  vertical-align: text-bottom;
+  list-style-type: lower-roman;
+}
+.extmatch_opt_table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #C0C0C0;
+}
+.extmatch_opt_table td {
+  border: 1px solid #C0C0C0;
+}
+.extmatch_opt_table ol {
+  list-style-type: upper-alpha;
+}
+.mee {
+  font-size: 120%;
+  display: inline;
+}
+.likert_button {
+  text-align: center;
+  width: 40px;
+  vertical-align: top;
+}
+.latex {
+  vertical-align: middle;
+}
+.thetime {
+  font-size: 120%;
+  width: 70px;
+  background-color: transparent;
+  text-align: center;
+  font-size: 90%;
+  color: white;
+  border: 0;
+}
+#maincontent {
+  font-size: 100%;
+  top: 0;
+  overflow: auto;
+  height: 100%;
+}
+.framecontent {
+  padding: 6px;
+  font-size: 95%;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  overflow: auto;
+  background: white;
+  color: black;
+  border-left: 1px solid #535353;
+}
+.refhead {
+  font-size: 14pt;
+  font-weight: bold;
+  border-bottom: 1px solid #C0C0C0;
+  padding: 6px;
+  position: fixed;
+  height: 18px;
+  right: 0;
+  border-left: 1px solid #535353;
+  background: #EEEEEE;
+}
+#next {
+  font-size: 100%;
+  width: 8em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  color: black !important;
+}
+#finish {
+  font-size: 100%;
+  width: 8em;
+  font-weight: bold;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  color: black !important;
+}
+#previous {
+  font-size: 100%;
+  width: 8em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  color: black !important;
+}
+#savemsg {
+  margin-right: 5px;
+  color: white;
+}
+#saveError {
+  display: none;
+  margin-left: 25%;
+  margin-bottom: 5px;
+  width: 600px;
+  height: 60px;
+	padding: 0;
+  border: 2px solid #C42828;
+  background-color: #FFEBEB;
+}
+#saveError div { 
+  font-size: 110%;
+  margin-top: -58px;
+  margin-left: 80px;
+  height:60px;
+  width: 80%;
+  text-align: left;
+  line-height:150%;
+}
+.exam_announcement_box {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #FFFFEE;
+	border: 2px solid #FCE699;
+}
+.exam_announcement_box ul {
+  margin: 0;
+  padding: 0;
+}
+.exam_announce_icon {
+  width: 56px;
+  vertical-align: top;
+}
+.exam_announce_title {
+  color: #F18204;
+  font-weight: bold;
+  font-size: 120%;
+  padding-bottom: 10px;
+}
+.var_error {
+	background-color: #FFC0C0;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.labelling {
+  margin-top: 8px;
+}
+.busyicon {
+  width: 23px;
+  height: 23px;
+  margin-bottom: 1px;
+  vertical-align: middle;
+}
+.defaultSkin table.mceLayout {
+  margin-top: 6px;
+}
+.calc {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+#fire_exit {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-image: url('../artwork/fire_exit.png');
+  background-repeat: no-repeat;
+}
+.copyright {
+  color: white;
+  width: 18em;
+  font-size: 90%;
+  padding-left: 10px;
+}
+#overlay {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 1000;
+  background: rgba(255,255,255,.5);
+}
+#submit_dialog {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 500px;
+  height: 150px;
+  border: 3px solid #1958B7;
+  background-color: white;
+}
+#submit_dialog_icon {
+  float: left;
+  margin: 10px 15px 10px 10px;
+}
+#submit_dialog_msg {
+  margin: 10px 10px 10px 20px;
+  text-align: left; 
+}
+#submit_dialog_buttons {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #EAEAEA;
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.callout {
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 100%;
+  width: 575px;
+  border: 0;
+  padding: 0;
+}
+#calloutTxt {
+  padding: 6px;
+	text-align: center;
+  background-color: #FCE282;
+}
+.notch {
+	position: relative;
+  top: -3px;
+  left: 485px;
+	margin: 0;
+	border-top: 12px solid #FCE282;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 0;
+	padding: 0;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}

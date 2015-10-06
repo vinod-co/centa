@@ -1,0 +1,14 @@
+remote enable
+port 6311
+uid rserve 
+gid rserve
+
+#auth required|disable [disable]
+#plaintext enable|disable [disable]
+#fileio enable|disable [enable]
+#interactive yes|no [yes] (since 0.6-2)
+#socket <socket> [none=disabled]
+#maxinbuf <size in kb> [262144]
+
+
+

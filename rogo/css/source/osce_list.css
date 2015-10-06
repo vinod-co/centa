@@ -1,0 +1,51 @@
+table {
+  font-size: 100%;
+  width: 100%;
+  line-height: 150%;
+}
+tr {
+  border: 1px solid #C0C0C0;
+}
+td {
+  text-align: left;
+}
+a {
+  color: black;
+}
+.title {
+	color: white;
+	background-color: #517DBF;
+	font-size: 160%;
+	font-weight: bold;
+	padding: 4px;
+}
+.n {
+  color: #808080;
+}
+.bl {
+  font-weight: bold;
+  cursor: pointer;
+}
+.l {
+  color: #808080;
+  cursor: pointer;
+}
+.indent {
+  padding-left: 40px;
+}
+.letter {
+  color: #517DBF;
+  font-weight: bold;
+  font-size: 120%;
+}
+.qlink {
+  text-align: center;
+  background-color: #C0C0C0;
+  font-weight: bold;
+  font-size: 120%;
+  width: 3.8%;
+	line-height: 120%;
+}
+a.qlink {
+  color: white;
+}

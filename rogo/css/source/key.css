@@ -1,0 +1,9 @@
+.key {
+  width: 90%;
+  background-color: #FFFFEE;
+	border: 2px solid #FCE699;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px;
+}

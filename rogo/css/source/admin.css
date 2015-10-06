@@ -1,0 +1,42 @@
+.blacklink {
+	color: black !important;
+}
+.num {
+	line-height: 100%;
+	display: inline-block;
+	background-color: #CD0001;
+	color: white;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.corners {
+	border: 2px solid white;
+	line-height: 1px;
+	display: inline-block;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.container {
+	float: left;
+	margin-left: 50px;
+	margin-right: 40px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-top: 35px;
+	width: 160px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #EAEAEA;
+}
+.container:hover {
+	border: 1px solid #C0C0C0;
+	background-color: #fAfAfA;
+}
+.icon {
+	padding-bottom: 5px;
+	width: 48px;
+	height: 48px;
+}

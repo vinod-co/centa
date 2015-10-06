@@ -1,0 +1,124 @@
+table {
+  border-collapse: collapse;
+}
+td {
+  text-align: center;
+}
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.osce_title {
+	color: white;
+	background-color: #517DBF;
+	font-size: 160%;
+	font-weight: bold;
+	padding: 4px;
+}
+.q {
+  text-align: left;
+  border-top: 1px solid #C0C0C0;
+  border-right: 1px solid #C0C0C0;
+  border-bottom: 1px solid #C0C0C0;
+	width: 80%;
+  padding-left: 20px;
+}
+.killerq {
+	background-color: #808080;
+	color: white;
+  text-align: left;
+  border-top: 1px solid #808080;
+  border-right: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+	width: 80%;
+  padding-left: 20px;
+}
+.skull {
+	background-image: url('../artwork/skull_16.png');
+	background-repeat: no-repeat;
+	background-position: 2px center;
+}
+.student_name {
+	font-size: 150%;
+	font-weight: bold;
+  padding-top: 10px;
+	padding-left: 20px;
+}
+.student_id {
+	font-size: 105%;
+	color: #808080;
+	padding-left: 20px;
+  padding-bottom: 10px;
+}
+.r {
+  border: 1px solid #C0C0C0;
+  color: #C0C0C0;
+  font-size: 180%;
+  font-weight: bold;
+}
+.t {
+  text-align: left;
+  font-size: 125%;
+  padding-top: 10px;
+}
+.overall {
+  border: 1px solid #C0C0C0;
+  width: 20%;
+  height: 35px;
+  text-align: center;
+}
+.part {
+  text-decoration: none;
+}
+.part_ok {
+  color: #3A8000;
+  text-decoration: underline;
+}
+.rating1 {
+  background-color: #D99594;
+}
+.rating2 {
+  background-color: #FABF8F;
+}
+.rating3 {
+  background-color: #C2D69B;
+}
+.totals {
+  background-color: #EAEAEA;
+}
+.totals_num {
+  font-weight: bold;
+  border: 0px;
+  text-align: right;
+  background-color: #EAEAEA;
+}
+.photo {
+  width: 90px;
+}
+#saveError {
+  display: none;
+  margin-left: 25%;
+  margin-bottom: 5px;
+  width: 45%;
+  height: 60px;
+  padding: 0px;
+  border: 2px solid #C42828;
+}
+#saveError div { 
+  font-size: 110%;
+  margin-top: -58px;
+  margin-left: 80px;
+  height: 60px;
+  width: 80%;
+  text-align: left;
+  line-height: 150%;
+}
+.killer {
+  background-image: url("../artwork/skull_16.png");
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  background-position: 0px center;
+}
+.non_killer {
+  padding-left: 20px;
+}

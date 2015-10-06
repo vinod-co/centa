@@ -1,0 +1,11 @@
+.dropdown {
+	background-color: #ED7D31;
+  border: 1px solid #ED7D31;
+  color: white;
+}
+
+.dropdown_excluded {
+	background-color: white;
+  border: 1px solid red;
+	color: red;
+}

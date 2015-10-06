@@ -1,0 +1,38 @@
+pre {
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+.std {
+  display: block;
+  background-color: #f27000;
+  color: white;
+  width: 35px;
+  text-align: center;
+}
+.commentsbox {
+  font-family: Arial,sans-serif;
+  width: 100%;
+}
+.ok_comment {
+  background-color: #C5E0B3;
+  text-align: center;
+  width: 170px;
+}
+.minor_comment {
+  background-color: #FFE599;
+  text-align: center;
+  width: 170px;
+}
+.major_comment {
+  background-color: #FF9090;
+  text-align: center;
+  width: 170px;
+}
+.cannot_comment {
+  background-color: #C0C0C0;
+  text-align: center;
+  width: 170px;
+}

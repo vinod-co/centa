@@ -1,0 +1,52 @@
+Options -Indexes
+<Files ~ "\.inc$">
+  Order allow,deny
+  Deny from all
+</Files>
+
+##
+## Cache-Control Headers
+##
+<ifModule mod_headers.c>
+    <filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|mp3|wav|mp4|mpg|avi|txt|oft|svg|ttf|woff|cur|doc|docx|ppt|pptx|xls|xlsx)$">
+        Header set Cache-Control "max-age=86400, private"
+        Header unset Last-Modified
+        Header unset ETag
+        FileETag None
+    </FilesMatch>
+</ifModule>
+
+<ifModule mod_expires.c>
+    ExpiresActive On
+    <filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|mp3|wav|mp4|mpg|avi|txt|oft|svg|ttf|woff|cur|doc|docx|ppt|pptx|xls|xlsx)$">
+        ExpiresDefault "access plus 1 day"
+    </FilesMatch>
+</ifModule>
+
+<ifModule mod_deflate.c>
+    <FilesMatch ".(js|css|php|csv|xml)$">
+        SetOutputFilter DEFLATE
+    </FilesMatch>
+</ifModule>
+
+# Redirect old paper links
+Redirect /user_index.php /paper/user_index.php
+
+##
+## Down for maintenance code - uncomment during upgrades
+##
+#Options -MultiViews +FollowSymLinks
+#RewriteEngine On
+
+## Only the IP address below will be able to access the site
+#RewriteCond %{REMOTE_ADDR} !128.243.253.107 [NC]
+#RewriteRule !(maintenance/.*)$ /maintenance/? [R=307,L]
+
+#AuthType Basic
+#AuthName "My6776Protected Are337878a787878"
+#AuthUserFile c:\dev\web\rogo8080\t2\htpasswd.htpasswd
+#Require valid-user
+
+<IfModule headers_module>
+  header set X-Clacks-Overhead "GNU Terry Pratchett"
+</IfModule>
